@@ -1,6 +1,3 @@
-<template>
-  {{ date }}
-</template>
 <script setup>
 import { ref } from 'vue'
 const date = ref(
@@ -11,4 +8,9 @@ const date = ref(
   }),
 )
 </script>
+
+<template>
+  <div>{{ date }}</div>
+</template>
+
 <style scoped></style>
